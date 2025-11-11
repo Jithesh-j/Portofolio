@@ -1,0 +1,9 @@
+pipeline{
+    stages{
+        stage("BUILD"){
+            steps{
+                sh 'echo "BUILD complete"'
+            }
+        }
+    }
+}
